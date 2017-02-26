@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #a2a2a2;
+    line-height: 1.8;
+}
+
+main {
+    width: 1400px;
+    height: 940px;
+    box-shadow: 0 0 100px #f6f6f6;
+    margin: 100px;
+    padding: 100px;
+}
+
+
+.post {
+    width: 1160px;
+    height: 536px;
+}
+
+.post-title, 
+.first-paragraph:first-letter {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.post-title {
+    font-size: 42px;
+}
+
+.first-paragraph:first-letter {
+    font-size: 110px;
+    line-height: 0.9;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+blockquote {
+    width: 886px;
+    height: 97px;
+    font-size: 0px;
+    font-style: italic;
+}
+
+blockquote p {
+    font-size: 24px;
+}
+
+ blockquote p:before {
+    content: : '“';
+    font-size: 40px;
+}
+
+.button {
+    width: 265px;
+    height: 68px;
+    border: 1px solid #eaa258;
+    color: #eaa258;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 20px 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #eaa258;
+    color: #fff;
+    transition: .2s ease-in;
+}
