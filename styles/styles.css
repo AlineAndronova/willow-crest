@@ -58,7 +58,7 @@ blockquote p {
 }
 
  blockquote p:before {
-    content: : '“';
+    content: '“';
     font-size: 40px;
 }
 
